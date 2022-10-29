@@ -1,0 +1,21 @@
+.container-favorites {
+  align-items: center;
+  color: var(--clr-white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 240px;
+}
+
+.box-favorites {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+}
+
+.title-favorites {
+  align-self: center;
+  font-size: 2rem;
+  letter-spacing: 1.1px;
+}

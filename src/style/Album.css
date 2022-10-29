@@ -1,0 +1,19 @@
+.box-music-album {
+  color: var(--clr-white);
+  margin-top: 240px;
+}
+
+.info-music {
+  align-items: center;
+  display: flex;
+  font-size: 1.2rem;
+  letter-spacing: 1.1px;
+  margin: 50px;
+}
+
+.front-album {
+  border-radius: 8px;
+  box-shadow: 5px 8px 25px 0 rgba(0, 0, 0, 0.5);
+  margin: 50px 30px 0;
+  width: 200px;
+}

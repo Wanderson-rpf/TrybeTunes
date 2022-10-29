@@ -1,0 +1,32 @@
+.box-music {
+  align-items: center;
+  background-color: rgba(182, 159, 198, 0.1);
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px;
+  padding: 10px;
+}
+
+.music-name {
+  flex-basis: 450px;
+  font-size: 1.1rem;
+  letter-spacing: 1.1px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.input-favorite {
+  appearance: none;
+}
+
+.label-favorite {
+  cursor: pointer;
+}
+
+.favorite {
+  color: var(--clr-text);
+  font-size: 1.8rem;
+}
+

@@ -1,0 +1,61 @@
+.container-edit-profile {
+  align-items: center;
+  color: var(--clr-white);
+  display: flex;
+  flex-direction: column;
+  font-size: 1.3rem;
+  letter-spacing: 1.1px;
+  margin-top: 240px;
+}
+
+.box-etid-profile {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 50%;
+}
+
+.form-edit-profile {
+  border: 1px solid var(--bg-active);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 40px;
+  padding: 30px;
+}
+
+.input-edit-form {
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  font-size: 1rem;
+  margin: 10px;
+  outline: none;
+  padding: 5px;
+  width: 350px;
+}
+
+.input-text-area-edit {
+  height: 100px;
+  outline: none;
+  resize: none;
+}
+
+.button-edit-profile {
+  background-color: var(--bg-active);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 700;
+  height: 50px;
+  margin: 20px 0 10px 10px;
+  text-transform: uppercase;
+  width: 200px;
+}
+
+.button-edit-profile:disabled {
+  background-color: var(--bg-disabled);
+  color: var(--clr-disabled);
+  cursor: not-allowed;
+}

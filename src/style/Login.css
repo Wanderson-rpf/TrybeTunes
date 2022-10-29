@@ -1,0 +1,82 @@
+/* stylelint-disable max-line-length */
+:root {
+
+  /* <----------------- Background and colors -----------------> */
+
+  --bg-login: rgb(60, 0, 104);
+
+  --bg-login-secundary: rgb(34, 0, 59);
+
+  --bg-gradient: linear-gradient(50deg, rgba(60, 0, 104, 1) 0%, rgba(84, 32, 123, 1) 40%, rgba(109, 64, 142, 1) 100%);
+
+  --bg-page: rgb(34, 35, 39);
+
+  --bg-disabled: rgb(119, 112, 125);
+
+  --bg-active: rgb(0, 213, 226);
+
+  --clr-disabled: rgb(160, 160, 160);
+
+  --clr-white: white;
+
+  --clr-button: rgb(39, 20, 147);
+
+}
+
+.page-login {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+
+.container-login {
+  align-items: center;
+  background: var(--bg-gradient);
+  border-radius: 30px;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  justify-content: center;
+  width: 550px;
+}
+
+.logo {
+  width: 150px;
+}
+
+.form-login {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-login {
+  border: none;
+  border-radius: 15px;
+  font-size: 1.1rem;
+  margin: 30px;
+  outline: none;
+  padding: 10px;
+  text-align: center;
+  width: 300px;
+}
+
+.button-login {
+  background-color: var(--bg-active);
+  border: none;
+  border-radius: 10px;
+  color: var(--clr-button);
+  cursor: pointer;
+  font-weight: 700;
+  height: 40px;
+  text-transform: uppercase;
+  width: 140px;
+}
+
+.button-login:disabled {
+  background-color: var(--bg-disabled);
+  color: var(--clr-disabled);
+  cursor: not-allowed;
+}
