@@ -175,3 +175,22 @@
     clip-path: inset(28% 0 0 0);
   }
 }
+
+
+@media screen and (max-width: 800px) {
+  .equalizer {
+    align-self: center;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(5, 15px);
+    height: 40px;
+    
+  }
+  
+  .text-loading {
+    color: var(--clr-white);
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 1.1px;
+  }
+}
