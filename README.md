@@ -2,10 +2,10 @@
 ![APM](https://img.shields.io/apm/l/li)
 
 Este projeto foi desenvolvido no curso de desenvolvimento Web da Trybe, 
-a proposta do aplicativo é ser um playes de musicas, onde é possível realizar
-uma pesquisa por banda ou artista e listar os albuns do mesmo, ao selecionar o album, é 
-disponibilizado um playes permitindo ouvir uma previa da musica e favorita-la para salvar,
-as musicas favoritadas ficam salvas mesmo apos atualizar ou fechar o navegador.
+a proposta do aplicativo é ser um player de músicas, onde é possível realizar
+uma pesquisa por banda ou artista e listar os álbuns do mesmo, ao selecionar o álbum, é 
+disponibilizado um playes permitindo ouvir uma prévia da música e favorita-la para salvar,
+as músicas favoritadas ficam salvas mesmo após atualizar ou fechar o navegador.
 
 ![image](https://user-images.githubusercontent.com/62866832/198854424-7612a9d8-078e-45d0-bb71-188e4822a49e.png)
 
@@ -24,7 +24,7 @@ O projeto foi desenvolvido utilizando a biblioteca ```React```.
 
 ## 🖇️ Colaborando
 
-Para colaborar com o projeto realize o fork, caso tenha alguma duvida, segue 
+Para colaborar com o projeto realize o fork, caso tenha alguma dúvida, segue 
 um link com tutorial.
 [Tutorial de como realizar um fork](https://guides.github.com/activities/forking/).
 - Após fazer o fork, clone o repositório criado para o seu computador.
